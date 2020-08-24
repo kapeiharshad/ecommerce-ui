@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.css";
 
 const Navbar = () => {
-  return <div className="Navbar">Hii from harshad</div>;
+  return <div className="baggateLogo">Baggagte</div>;
 };
 
 export default Navbar;
