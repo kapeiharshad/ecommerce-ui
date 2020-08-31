@@ -51,13 +51,12 @@ input[type="text"] {
 
 .search-button:hover {
   color: var(--darkGrey);
-  background-color: var(--mainWhite);
+  background-color: transparent;
   border: var(--primaryColor) solid 2px;
 }
 
 .signInedTab {
   margin: 0.5rem 0;
-  font-size: 1rem;
 }
 
 .signOutedTab {
@@ -67,8 +66,10 @@ input[type="text"] {
 .nav-text {
   margin: 0 2rem;
   font-weight: bold;
-  text-transform: capitalize;
+  text-transform: uppercase;
   cursor: pointer;
+  font-size: 0.75rem;
+  letter-spacing: 2.5px;
 }
 
 .nav-text:hover {
@@ -76,12 +77,13 @@ input[type="text"] {
 }
 
 .nav-links-icon {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 0 0.4rem;
+  color: var(--primaryColor);
 }
 
 .underline {
-  border-bottom: 2px solid var(--darkGrey);
+  border-bottom: 2px solid var(--offBlack);
   width: 85vw;
   max-width: 1170px;
   margin: 0 auto;

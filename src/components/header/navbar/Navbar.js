@@ -27,10 +27,10 @@ const Navbar = () => {
           {/* <div className="signInedTab">
             <div>
               <span className="nav-text">
-                <i className="fas fa-power-off nav-links-icon"></i>Logout
+                <i className="fas fa-shopping-bag nav-links-icon"></i>My orders
               </span>
               <span className="nav-text">
-                <i className="fas fa-shopping-bag nav-links-icon"></i>My orders
+                <i className="fas fa-power-off nav-links-icon"></i>Logout
               </span>
             </div>
           </div> */}
