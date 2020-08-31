@@ -50,7 +50,9 @@ input[type="text"] {
 }
 
 .search-button:hover {
-  color: var(--mainGrey);
+  color: var(--darkGrey);
+  background-color: var(--mainWhite);
+  border: var(--primaryColor) solid 2px;
 }
 
 .signInedTab {
