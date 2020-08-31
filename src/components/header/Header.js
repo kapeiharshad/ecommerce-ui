@@ -1,10 +1,26 @@
 import React from "react";
 import Navbar from "./navbar/Navbar";
+import { NavLink } from "react-router-dom";
+import "./Header.css";
 
 const Header = () => {
   return (
-    <div>
+    <div className="header body">
       <Navbar />
+      <div className="headers-link-container section-center-header">
+        <NavLink to="/about" className="header-link">
+          About Us
+        </NavLink>
+        <NavLink to="/" className="header-link">
+          Brands
+        </NavLink>
+        <NavLink to="/collections" className="header-link">
+          Collections
+        </NavLink>
+        <NavLink to="/contact" className="header-link">
+          Contact Us
+        </NavLink>
+      </div>
     </div>
   );
 };

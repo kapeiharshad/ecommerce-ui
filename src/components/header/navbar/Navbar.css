@@ -71,9 +71,6 @@ input[type="text"] {
 
 .nav-text:hover {
   color: var(--primaryColor);
-  /* background: var(--mainGrey); */
-  /* padding: 5px 3px;
-  border-radius: 1rem; */
 }
 
 .nav-links-icon {

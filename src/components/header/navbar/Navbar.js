@@ -1,13 +1,16 @@
 import React from "react";
 import "./Navbar.css";
 import logo from "../../../img/logoImg.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="body">
       <div className="navbar section-center-navbar">
         <div className="brandLogo">
-          <img src={logo} alt="BagGate Logo" />
+          <Link to="/">
+            <img src={logo} alt="BagGate Logo" />
+          </Link>
         </div>
         <div className="nav-links-container">
           <form action="" className="search-container nav-text">
@@ -22,15 +25,15 @@ const Navbar = () => {
           </form>
 
           {/* <div className="signInedTab">
-          <div>
-            <span className="nav-text">
-              <i className="fas fa-power-off nav-links-icon"></i>Logout
-            </span>
-            <span className="nav-text">
-              <i className="fas fa-shopping-bag nav-links-icon"></i>My orders
-            </span>
-          </div>
-        </div> */}
+            <div>
+              <span className="nav-text">
+                <i className="fas fa-power-off nav-links-icon"></i>Logout
+              </span>
+              <span className="nav-text">
+                <i className="fas fa-shopping-bag nav-links-icon"></i>My orders
+              </span>
+            </div>
+          </div> */}
 
           <div className="signOutedTab">
             <div>
