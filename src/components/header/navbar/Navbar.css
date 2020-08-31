@@ -7,7 +7,7 @@ button {
 .section-center-navbar {
   width: 85vw;
   max-width: 1170px;
-  margin: 2rem auto 2rem auto;
+  margin: 0 auto 2rem auto;
 }
 .navbar {
   display: flex;

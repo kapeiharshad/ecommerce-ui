@@ -24,7 +24,7 @@
   box-sizing: border-box;
 }
 
-.body {
+.main-body {
   margin: 0;
   font-family: "Lato", sans-serif;
   color: var(--mainBlack);

@@ -11,9 +11,9 @@
   margin: 0 2rem;
   text-transform: uppercase;
   color: var(--primaryColor);
-  font-weight: bold;
+  font-weight: bolder;
   letter-spacing: 2.5px;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
 }
 
 .header-link:hover {
