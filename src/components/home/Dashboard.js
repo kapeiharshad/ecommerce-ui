@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import Header from "../header/Header";
+import {Link} from "react-router-dom";
 import "./Dashboard.css";
 
 class Dashboard extends Component {
@@ -19,7 +20,9 @@ class Dashboard extends Component {
               <p className="hero-text">
                 The most trendy and fashionable bags waiting for you
               </p>
-              <button className="hero-button">Shop Now</button>
+              <Link to="/collections" className="hero-button">
+                Shop Now
+              </Link>
             </div>
           </div>
         </div>

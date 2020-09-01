@@ -3,7 +3,7 @@
       rgba(243, 243, 243, 0.972),
       rgba(206, 118, 118, 0.2)
     ),
-    url("../../img/bannerImage1.jpg") center/cover no-repeat fixed;
+    url("../../img/bannerImage.jpg") center/cover no-repeat fixed;
 }
 
 .hero {
@@ -30,7 +30,21 @@
   font-weight: bolder;
   font-size: 1rem;
   letter-spacing: 1.5px;
+  margin: 2.5px;
 }
 .hero-button {
-  padding: 2rem;
+  margin: 2.5px 0.45rem;
+  border: 2px solid var(--primaryColor);
+  padding: 0.5rem 0.8rem;
+  color: var(--mainWhite);
+  background-color: var(--primaryColor);
+  border-radius: 2rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.hero-button:hover {
+  background: transparent;
+  color: var(--mainBlack);
 }
