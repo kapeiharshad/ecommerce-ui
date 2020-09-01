@@ -1,11 +1,11 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "../../../img/logoImg.png";
-import { Link } from "react-router-dom";
+import logo from "../../../img/logoImg1.png";
+import {Link} from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="main-body" style={{ paddingTop: "2rem" }}>
+    <div className="main-body" style={{paddingTop: "2rem"}}>
       <div className="navbar section-center-navbar">
         <div className="brandLogo">
           <Link to="/">
