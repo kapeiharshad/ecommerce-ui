@@ -94,6 +94,10 @@ input[type="text"] {
 }
 
 @media screen and (max-width: 720px) {
+  .brandLogo {
+    max-width: 150px;
+    height: auto;
+  }
   .nav-text-container {
     margin: 0 7px;
   }
@@ -106,6 +110,7 @@ input[type="text"] {
   .nav-links-container {
     display: flex;
     justify-content: space-evenly;
+    padding-top: 0.5rem;
   }
 }
 /* mobile view */
