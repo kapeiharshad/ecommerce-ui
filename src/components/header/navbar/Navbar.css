@@ -58,7 +58,7 @@ input[type="text"] {
 }
 
 .nav-text {
-  margin: 0 2rem;
+  margin: 0 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
@@ -81,4 +81,48 @@ input[type="text"] {
   width: 85vw;
   max-width: 1170px;
   margin: 0 auto;
+}
+
+/* Tablet view */
+@media screen and (max-width: 1023px) {
+  .search-input {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .nav-text {
+    margin: 0 7px;
+  }
+  .links-text {
+    display: none;
+  }
+  .search-button {
+    font-size: 0.7rem;
+    padding: 0.2rem;
+    margin-top: 0.5rem;
+  }
+  .nav-links-icon {
+    font-size: 1rem;
+  }
+  .nav-links-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+/* mobile view */
+@media screen and (max-width: 425px) {
+  .brandLogo {
+    max-width: 125px;
+    height: auto;
+  }
+  .nav-links-container {
+    padding-top: 0;
+  }
+}
+/*  small screen mobile view */
+@media screen and (max-width: 320px) {
+  .nav-text {
+    margin: 0 3px;
+  }
 }
