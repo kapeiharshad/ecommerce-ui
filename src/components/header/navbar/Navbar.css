@@ -59,16 +59,17 @@ input[type="text"] {
   margin: 0.5rem 0;
 }
 
-.nav-text {
+.nav-text-container {
   margin: 0 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
   font-size: 0.75rem;
   letter-spacing: 2.5px;
+  color: var(--mainBlack);
 }
 
-.nav-text:hover {
+.nav-text-container:hover {
   color: var(--primaryColor);
 }
 
@@ -93,7 +94,7 @@ input[type="text"] {
 }
 
 @media screen and (max-width: 720px) {
-  .nav-text {
+  .nav-text-container {
     margin: 0 7px;
   }
   .links-text {
@@ -119,7 +120,7 @@ input[type="text"] {
 }
 /*  small screen mobile view */
 @media screen and (max-width: 320px) {
-  .nav-text {
+  .nav-text-container {
     margin: 0 3px;
   }
 }

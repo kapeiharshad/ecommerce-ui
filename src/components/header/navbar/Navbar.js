@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import logo from "../../../img/logoImg.png";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -13,7 +13,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="nav-links-container">
-          <form action="" className="search-container nav-text">
+          <form action="" className="search-container nav-text-container">
             <input
               className="search-input"
               type="text"
@@ -25,36 +25,41 @@ const Navbar = () => {
           </form>
 
           <div className="signInedTab">
-            <div>
-              <span className="nav-text">
+            <NavLink to="/orders">
+              <span className="nav-text-container">
                 <i
                   className="fas fa-shopping-bag nav-links-icon"
                   style={{ color: "#495057" }}
                 ></i>
                 <span className="links-text">My orders</span>
               </span>
-              <span className="nav-text">
+            </NavLink>
+            <NavLink className="navlink" to="/logout">
+              <span className="nav-text-container">
                 <i className="fas fa-power-off nav-links-icon"></i>
                 <span className="links-text">Logout</span>
               </span>
-            </div>
+            </NavLink>
           </div>
 
-          {/* <div className="signOutedTab">
-            <div>
-              <span className="nav-text">
+          <div className="signOutedTab">
+            <NavLink className="navlink" to="/signin">
+              <span className="nav-text-container">
                 <i
                   className="fas fa-sign-in-alt nav-links-icon"
                   style={{ color: "#495057" }}
                 ></i>
                 <span className="links-text">Sign In</span>
               </span>
-              <span className="nav-text">
+            </NavLink>
+
+            <NavLink className="navlink" to="/signup">
+              <span className="nav-text-container">
                 <i className="fas fa-user-plus nav-links-icon"></i>
                 <span className="links-text">Sign Up</span>
               </span>
-            </div>
-          </div> */}
+            </NavLink>
+          </div>
         </div>
       </div>
       <div className="underline"></div>
