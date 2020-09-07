@@ -17,7 +17,7 @@
 
 .search-input {
   border: var(--primaryColor) solid 2px;
-  padding: 0.5rem 3.5rem;
+  padding: 0.2rem 3.5rem;
   border-radius: 2rem;
   outline: none;
 }
@@ -27,9 +27,11 @@
   font-weight: bold;
 }
 .search-button {
+  font-size: 0.7rem;
   margin-left: 5px;
+  margin-top: 0.5rem;
   color: var(--mainWhite);
-  padding: 0.5rem;
+  padding: 0.2rem;
   background-color: var(--primaryColor);
   border: var(--primaryColor) solid 2px;
   border-radius: 2rem;
@@ -96,11 +98,6 @@ input[type="text"] {
   }
   .links-text {
     display: none;
-  }
-  .search-button {
-    font-size: 0.7rem;
-    padding: 0.2rem;
-    margin-top: 0.5rem;
   }
   .nav-links-icon {
     font-size: 1rem;

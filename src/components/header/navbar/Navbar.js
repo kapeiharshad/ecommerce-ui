@@ -27,11 +27,14 @@ const Navbar = () => {
           <div className="signInedTab">
             <div>
               <span className="nav-text">
-                <i className="fas fa-shopping-bag nav-links-icon"></i>
+                <i
+                  className="fas fa-shopping-bag nav-links-icon"
+                  style={{ color: "#495057" }}
+                ></i>
                 <span className="links-text">My orders</span>
               </span>
               <span className="nav-text">
-                <i className="fas fa-power-off nav-links-icon"></i>{" "}
+                <i className="fas fa-power-off nav-links-icon"></i>
                 <span className="links-text">Logout</span>
               </span>
             </div>
@@ -40,7 +43,10 @@ const Navbar = () => {
           {/* <div className="signOutedTab">
             <div>
               <span className="nav-text">
-                <i className="fas fa-sign-in-alt nav-links-icon"></i>
+                <i
+                  className="fas fa-sign-in-alt nav-links-icon"
+                  style={{ color: "#495057" }}
+                ></i>
                 <span className="links-text">Sign In</span>
               </span>
               <span className="nav-text">
