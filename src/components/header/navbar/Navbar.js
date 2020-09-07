@@ -42,7 +42,7 @@ const Navbar = () => {
             </NavLink>
           </div>
 
-          <div className="signOutedTab">
+          {/* <div className="signOutedTab">
             <NavLink className="navlink" to="/signin">
               <span className="nav-text-container">
                 <i
@@ -59,7 +59,7 @@ const Navbar = () => {
                 <span className="links-text">Sign Up</span>
               </span>
             </NavLink>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="underline"></div>
