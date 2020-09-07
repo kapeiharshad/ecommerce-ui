@@ -7,10 +7,15 @@ const Navbar = () => {
   return (
     <div className="main-body" style={{ paddingTop: "2rem" }}>
       <div className="navbar section-center-navbar">
-        <div className="brandLogo-container">
-          <Link to="/">
-            <img src={logo} alt="BagGate Logo" className="brandLogo" />
-          </Link>
+        <div className="nav-toogle-container">
+          <div className="nav-toogle">
+            <i className="fas fa-bars nav-toogle-icon"></i>
+          </div>
+          <div className="brandLogo-container">
+            <Link to="/">
+              <img src={logo} alt="BagGate Logo" className="brandLogo" />
+            </Link>
+          </div>
         </div>
         <div className="nav-links-container">
           <form action="" className="search-container nav-text-container">
