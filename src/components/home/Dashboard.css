@@ -1,7 +1,7 @@
 .hero {
   background: linear-gradient(
       rgba(243, 243, 243, 0.972),
-      rgba(206, 118, 118, 0.2)
+      rgba(206, 118, 118, 0.6)
     ),
     url("../../img/bannerImage.jpg") center/cover no-repeat fixed;
 }
@@ -47,4 +47,8 @@
 .hero-button:hover {
   background: transparent;
   color: var(--mainBlack);
+}
+
+/* Big screen Tablet view */
+@media screen and (max-width: 1024px) {
 }
