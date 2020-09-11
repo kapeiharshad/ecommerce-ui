@@ -63,6 +63,10 @@ a {
   text-decoration: none;
   display: inline-block;
 }
+Link {
+  text-decoration: none;
+  display: inline-block;
+}
 .section-center {
   width: 85vw;
   max-width: 1170px;
@@ -74,6 +78,4 @@ a {
   color: var(--mainBlack);
   line-height: 1.4;
   font-size: 1rem;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }

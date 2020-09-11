@@ -19,3 +19,9 @@
 .header-link:hover {
   color: var(--mainBlack);
 }
+
+@media screen and (max-width: 720px) {
+  .headers-link-container {
+    display: none;
+  }
+}
