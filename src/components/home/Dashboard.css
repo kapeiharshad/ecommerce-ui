@@ -1,9 +1,9 @@
 .hero {
   background: linear-gradient(
       rgba(243, 243, 243, 0.9),
-      rgba(206, 118, 118, 0.6)
+      rgba(206, 118, 118, 0.3)
     ),
-    url("../../img/bannerImage.jpg") center/cover no-repeat fixed;
+    url("../../img/pexels-sanddollar-634538.jpg") center/cover no-repeat fixed;
 }
 
 .hero {
