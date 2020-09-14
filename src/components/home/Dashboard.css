@@ -20,3 +20,29 @@
   justify-content: flex-end;
   padding-top: 12rem;
 }
+
+.hero-title {
+  font-size: 2.3rem;
+  color: var(--primaryColor);
+}
+.hero-subtitle {
+  color: var(--mainBlack);
+  font-weight: bolder;
+}
+.hero-text {
+  letter-spacing: 1px;
+}
+
+.hero-button {
+  background-color: var(--primaryColor);
+  border: var(--primaryColor) solid 1px;
+  padding: 0.3rem 1rem;
+  border-radius: 2rem;
+  color: var(--mainWhite);
+}
+
+.hero-button:hover {
+  background: transparent;
+  color: var(--mainBlack);
+  border: var(--primaryColor) solid 1px;
+}
