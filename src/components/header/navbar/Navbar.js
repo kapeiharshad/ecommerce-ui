@@ -34,7 +34,7 @@ const Navbar = () => {
               <span className="nav-text-container">
                 <i
                   className="fas fa-shopping-bag nav-links-icon"
-                  style={{color: "#495057"}}
+                  style={{color: "#223127"}}
                 ></i>
                 <span className="links-text">My orders</span>
               </span>
@@ -52,7 +52,7 @@ const Navbar = () => {
               <span className="nav-text-container">
                 <i
                   className="fas fa-sign-in-alt nav-links-icon"
-                  style={{ color: "#495057" }}
+                  style={{ color: "#223127" }}
                 ></i>
                 <span className="links-text">Sign In</span>
               </span>
