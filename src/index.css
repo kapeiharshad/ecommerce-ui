@@ -11,7 +11,7 @@
   --mainGrey: #edebe4;
   --darkGrey: #beb7a4;
   --mainTransition: all 0.3s linear;
-  --mainSpacing: 0.25rem;
+  --mainSpacing: 4px;
   --lightShadow: 2px 5px 3px 0 rgba(0, 0, 0, 0.25);
   --darkShadow: 4px 10px 5px 0 rgba(0, 0, 0, 0.5);
 }
@@ -38,24 +38,24 @@ h4,
 h5,
 h6 {
   font-family: "Poppins", sans-serif;
-  margin-bottom: 1.25rem;
+  margin-bottom: 20px;
   letter-spacing: var(--mainSpacing);
 }
 
 h1 {
-  font-size: 3.3rem;
+  font-size: 52.8px;
 }
 h2 {
-  font-size: 2.3rem;
+  font-size: 36.8px;
 }
 h3 {
-  font-size: 2rem;
+  font-size: 32px;
 }
 h4 {
-  font-size: 1.2rem;
+  font-size: 19.2px;
 }
 p {
-  margin-bottom: 1.25rem;
+  margin-bottom: 20px;
   line-height: 2;
   font-weight: 300;
 }
@@ -70,12 +70,12 @@ Link {
 .section-center {
   width: 85vw;
   max-width: 1170px;
-  margin: 4rem auto 2rem auto;
+  margin: 64px auto 32px auto;
 }
 .main-body {
   margin: 0;
   font-family: "Lato", sans-serif;
   color: var(--mainBlack);
   line-height: 1.4;
-  font-size: 1rem;
+  font-size: 16px;
 }

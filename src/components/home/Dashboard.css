@@ -18,11 +18,11 @@
 .bagImage-container {
   display: flex;
   justify-content: flex-end;
-  padding-top: 12rem;
+  padding-top: 192px;
 }
 
 .hero-title {
-  font-size: 2.3rem;
+  font-size: 36.8px;
   color: var(--primaryColor);
 }
 .hero-subtitle {
@@ -36,8 +36,8 @@
 .hero-button {
   background-color: var(--primaryColor);
   border: var(--primaryColor) solid 1px;
-  padding: 0.3rem 1rem;
-  border-radius: 2rem;
+  padding: 4.8px 16px;
+  border-radius: 32px;
   color: var(--mainWhite);
 }
 
