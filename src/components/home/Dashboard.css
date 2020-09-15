@@ -47,9 +47,9 @@
   border: var(--primaryColor) solid 1px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1070px) {
   .hero-title {
-    font-size: 2rem;
+    font-size: 32px;
     color: var(--primaryColor);
   }
 
@@ -59,7 +59,7 @@
   }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 955px) {
   .hero-container {
     display: flex;
     flex-direction: column;
@@ -67,7 +67,7 @@
   }
   .hero-title-container {
     width: 75vw;
-    margin: 4rem auto 2rem auto;
+    margin: 64px auto 32px auto;
   }
   .bagImage-container {
     display: flex;
@@ -81,4 +81,22 @@
 }
 
 @media screen and (max-width: 720px) {
+  .hero-container {
+    padding-top: 48px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .hero-title {
+    font-size: 24px;
+    color: var(--primaryColor);
+  }
+
+  .hero-text {
+    font-size: 14px;
+  }
+  .bagImage {
+    max-width: 400px;
+    height: auto;
+  }
 }
