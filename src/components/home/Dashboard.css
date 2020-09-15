@@ -46,3 +46,39 @@
   color: var(--mainBlack);
   border: var(--primaryColor) solid 1px;
 }
+
+@media screen and (max-width: 1024px) {
+  .hero-title {
+    font-size: 2rem;
+    color: var(--primaryColor);
+  }
+
+  .bagImage {
+    max-width: 500px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .hero-title-container {
+    width: 75vw;
+    margin: 4rem auto 2rem auto;
+  }
+  .bagImage-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0;
+  }
+  .bagImage {
+    max-width: 400px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 720px) {
+}

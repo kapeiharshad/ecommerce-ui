@@ -18,7 +18,7 @@ class Dashboard extends Component {
               </h1>
               <div className="hero-text-container">
                 <p className="hero-text">
-                  The most trendy and fashionable bags waiting for you
+                  The most trendy and fashionable bags waiting for you.
                 </p>
                 <Link to="/collections" className="hero-button">
                   Shop Now
