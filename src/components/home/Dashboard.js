@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import Header from "../header/Header";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 import bagImage from "../../img/bannerImg.png";
 import "./Dashboard.css";
 

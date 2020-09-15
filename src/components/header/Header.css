@@ -4,16 +4,16 @@
 .section-center-header {
   width: 85vw;
   max-width: 1170px;
-  margin: 2rem auto 2rem auto;
+  margin: 32px auto 32px auto;
 }
 
 .header-link {
-  margin: 0 2rem;
+  margin: 0 32px;
   text-transform: uppercase;
   color: var(--primaryColor);
   font-weight: bolder;
   letter-spacing: 2.5px;
-  font-size: 0.75rem;
+  font-size: 12px;
 }
 
 .header-link:hover {

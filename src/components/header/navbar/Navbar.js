@@ -1,11 +1,11 @@
 import React from "react";
 import "./Navbar.css";
 import logo from "../../../img/logoImg.png";
-import { Link, NavLink } from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="main-body" style={{ paddingTop: "2rem" }}>
+    <div className="main-body" style={{paddingTop: "32px"}}>
       <div className="navbar section-center-navbar">
         <div className="nav-toogle-container">
           <div className="nav-toogle">
@@ -34,7 +34,7 @@ const Navbar = () => {
               <span className="nav-text-container">
                 <i
                   className="fas fa-shopping-bag nav-links-icon"
-                  style={{ color: "#495057" }}
+                  style={{color: "#223127"}}
                 ></i>
                 <span className="links-text">My orders</span>
               </span>
@@ -52,7 +52,7 @@ const Navbar = () => {
               <span className="nav-text-container">
                 <i
                   className="fas fa-sign-in-alt nav-links-icon"
-                  style={{ color: "#495057" }}
+                  style={{ color: "#223127" }}
                 ></i>
                 <span className="links-text">Sign In</span>
               </span>
