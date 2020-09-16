@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "../src/components/header/Header";
 import Dashboard from "../src/components/home/Dashboard";
-import {BrowserRouter, Route, Switch} from "react-router-dom";
+import Footer from "../src/components/footer/Footer";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Dashboard}></Route>
         </Switch>
+        <Footer />
       </div>
     </BrowserRouter>
   );
