@@ -1,6 +1,6 @@
 .hero {
   min-height: calc(100vh - 15vh);
-  background-color: #ace0f0;
+  background-color: var(--secoundaryColor);
   position: relative;
 }
 
