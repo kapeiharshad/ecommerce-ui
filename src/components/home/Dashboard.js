@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import Header from "../header/Header";
 import {Link} from "react-router-dom";
 import bagImage from "../../img/bannerImg.png";
 import "./Dashboard.css";
@@ -9,7 +8,6 @@ class Dashboard extends Component {
     return (
       <div className="main-body Dashboard">
         <div className="hero">
-          <Header />
           <div className="hero-container">
             <div className="hero-title-container">
               <h1 className="hero-title">
