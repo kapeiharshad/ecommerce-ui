@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../src/components/header/Header";
 import Dashboard from "../src/components/home/Dashboard";
 import Footer from "../src/components/footer/Footer";
-import About from "../src/components/header/navbar/about/About";
+import About from "../src/components/header/about/About";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
