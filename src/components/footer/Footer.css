@@ -1,0 +1,41 @@
+.footer {
+  background-color: var(--mainBlack);
+  padding: 70px 0;
+}
+
+.footer-container {
+  text-align: center;
+}
+.footer-link {
+  color: var(--darkGrey);
+  padding: 0 32px;
+}
+
+.footer-link:hover {
+  color: var(--primaryColor);
+}
+
+.footer-icon-container {
+  color: var(--darkGrey);
+  font-size: 25px;
+  cursor: pointer;
+  padding: 32px 0;
+}
+
+.footer-icon {
+  padding: 0 32px;
+}
+
+.footer-icon:hover {
+  color: var(--primaryColor);
+}
+
+.footer-rigths-text {
+  text-transform: capitalize;
+  color: var(--darkGrey);
+  display: inline-block;
+  letter-spacing: 6px;
+}
+.footer-rigths-subtext {
+  color: var(--primaryColor);
+}
