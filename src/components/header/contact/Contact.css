@@ -1,0 +1,12 @@
+.contacttitle{
+    color:var(--mainBlack);
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: bold ;
+    
+}
+.sub-title{
+    color:var(--primaryColor)
+}
+
