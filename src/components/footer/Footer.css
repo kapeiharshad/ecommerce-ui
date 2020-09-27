@@ -38,4 +38,5 @@
 }
 .footer-rigths-subtext {
   color: var(--primaryColor);
+  font-weight: bold;
 }
