@@ -1,3 +1,27 @@
-.about{
-    color:red;
+.abouttitle{
+    color:var(--mainBlack);
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: bold;
+    
 }
+.sub-title{
+color:var(--primaryColor)
+}
+.about img {
+    float: left;
+   width: 50%;
+   padding-left: 360px;
+    margin: 0 auto 32px auto;
+    
+}
+.aboutcontent{
+    font-size: 25px;
+    color: black;
+    padding-right: 400px;
+    padding-top: 250px;
+    padding-left: 1000px;
+    margin: 0 auto 32px auto;
+}
+  
