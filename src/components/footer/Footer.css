@@ -40,3 +40,15 @@
   color: var(--primaryColor);
   font-weight: bold;
 }
+
+@media screen and (max-width: 530px) {
+  .footer-link {
+    padding: 0 16px;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .footer-link {
+    padding: 0 5px;
+  }
+}
