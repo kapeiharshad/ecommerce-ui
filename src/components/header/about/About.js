@@ -11,8 +11,8 @@ const About = () => {
         </h3>
       </div>
       <div className="about-container section-center">
-        <div className="about-image">
-          <img src={aboutimg} alt="bag" />
+        <div className="about-image-container">
+          <img src={aboutimg} alt="bag" className="about-image" />
         </div>
         <div className="about-text">
           Today, BagGate's standards of quality are just as uncompromising as
