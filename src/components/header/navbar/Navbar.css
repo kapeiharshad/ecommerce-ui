@@ -125,6 +125,9 @@ input[type="text"] {
     justify-content: space-evenly;
     padding-top: 8px;
   }
+  .underline {
+    display: none;
+  }
 }
 /* Big screen mobile view */
 @media screen and (max-width: 425px) {
