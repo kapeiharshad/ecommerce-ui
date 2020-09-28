@@ -15,18 +15,18 @@ const About = () => {
           <img src={aboutimg} alt="bag" />
         </div>
         <div className="about-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-          itaque incidunt illum aliquam delectus sed ipsum harum vel similique
-          nisi ducimus autem, sunt est voluptatem placeat, eaque quos!
-          Necessitatibus deserunt hic odit cumque cupiditate eaque quos,
-          accusamus maxime porro illo vero tempora sit repellat praesentium!
-          Cumque quaerat, provident officiis dolore deleniti id saepe
-          reprehenderit quibusdam veniam est culpa, quam illo itaque
-          consectetur, temporibus maxime cum. Velit, quidem. Eum a aliquid nemo
-          ad laudantium corrupti ipsam praesentium recusandae labore modi
-          dolorem voluptas impedit vero ab nobis tenetur dicta, quia eaque earum
-          illo. Iure nisi cupiditate corrupti nobis dicta distinctio velit
-          consequuntur?
+          Today, BagGate's standards of quality are just as uncompromising as
+          when the brand was founded. Every piece is created by artisans who
+          have dedicated their lives to learning the art of making beautiful and
+          practical goods. Through unparalleled craftsmanship, BagGate is made
+          to last. <br /> <br />
+          Over the years, we’ve built long-standing relationships with our
+          production partners, each one rooted in trust and a commitment to
+          excellence. In fact, the BagGate original collection is still crafted
+          in the same factory in Mumbai. <br /> <br />
+          Where and how our products are made is an integral part of our
+          heritage. Every piece in our collection is made to serve as your
+          trusted companion through a lifetime of experiences.
         </div>
       </div>
     </div>
