@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="footer main-body ">
       <div className="footer-container">
         <div className="footer-link-container">
-          <NavLink to="/" id="footer-home-id" className="footer-link">
+          <NavLink to="/" className="footer-link">
             Home
           </NavLink>
           <NavLink to="/about" className="footer-link">
