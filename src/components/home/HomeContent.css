@@ -14,6 +14,7 @@
   max-width: 200px;
   margin: 0 auto;
   color: var(--primaryColor);
+  margin-bottom: 16px;
 }
 .features-text {
   max-width: 250px;
