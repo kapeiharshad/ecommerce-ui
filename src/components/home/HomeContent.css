@@ -29,3 +29,17 @@
     font-size: 14px;
   }
 }
+
+@media screen and (max-width: 820px) {
+  .section-center-feature {
+    margin: 74px auto 24px auto;
+  }
+  .features-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .single-feature {
+    margin: 16px;
+  }
+}
