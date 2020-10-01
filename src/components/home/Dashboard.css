@@ -1,7 +1,5 @@
 .hero {
-  /* min-height: calc(25vh); */
   background-color: var(--secoundaryColor);
-  /* position: relative; */
 }
 
 .hero-container {
@@ -100,3 +98,5 @@
     height: auto;
   }
 }
+
+/* -------------feature section---------- */
