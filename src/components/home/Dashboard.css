@@ -16,7 +16,6 @@
 .bagImage-container {
   display: flex;
   justify-content: flex-end;
-  padding-top: 192px;
 }
 
 .hero-title {
@@ -98,5 +97,3 @@
     height: auto;
   }
 }
-
-/* -------------feature section---------- */
