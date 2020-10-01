@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="footer-top-icon">
             <i class="fas fa-truck"></i>
           </div>
-          <h4 className="footer-top-title">Free Shipping</h4>
+          <h4 className="footer-top-title">Free & Fast Shipping</h4>
           <p className="footer-top-text">On Order above Rs 999/-</p>
         </div>
         <div className="footer-top">
