@@ -71,3 +71,18 @@
   font-size: 25px;
   color: var(--primaryColor);
 }
+.footer-top-title {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 720px) {
+  .footer-top-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .footer-top {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+}
