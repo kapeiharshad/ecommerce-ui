@@ -1,4 +1,4 @@
-.footer {
+.footer-bottom {
   background-color: var(--mainBlack);
   padding: 70px 0;
 }
@@ -51,4 +51,23 @@
   .footer-link {
     padding: 0 5px;
   }
+}
+
+.footer-top-container {
+  background-color: var(--mainBlack);
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-around;
+  color: var(--darkGrey);
+}
+.footer-top {
+  text-align: center;
+}
+.footer-top-title {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.footer-top-icon {
+  font-size: 25px;
+  color: var(--primaryColor);
 }
