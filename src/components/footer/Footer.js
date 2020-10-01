@@ -9,21 +9,21 @@ const Footer = () => {
       <div className="footer-top-container">
         <div className="footer-top">
           <div className="footer-top-icon">
-            <i class="fas fa-users"></i>
+            <i className="fas fa-users"></i>
           </div>
           <h4 className="footer-top-title">Membership Discount</h4>
           <p className="footer-top-text">Register & save upto 80%</p>
         </div>
         <div className="footer-top">
           <div className="footer-top-icon">
-            <i class="fas fa-truck"></i>
+            <i className="fas fa-truck"></i>
           </div>
           <h4 className="footer-top-title">Free & Fast Shipping</h4>
           <p className="footer-top-text">On Order above Rs 999/-</p>
         </div>
         <div className="footer-top">
           <div className="footer-top-icon">
-            <i class="fas fa-exchange-alt"></i>
+            <i className="fas fa-exchange-alt"></i>
           </div>
           <h4 className="footer-top-title">Free Return or Exchange</h4>
           <p className="footer-top-text">Within 7 days.</p>

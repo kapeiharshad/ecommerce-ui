@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import {Link} from "react-router-dom";
 import bagImage from "../../img/bannerImg.png";
 import "./Dashboard.css";
+import HomeContent from "./HomeContent";
 
 class Dashboard extends Component {
   render() {
@@ -28,32 +29,7 @@ class Dashboard extends Component {
             </div>
           </div>
         </div>
-        <div className="features-container">
-          <div className="single-feature">
-            <h4 className="features-title">100% Genuine Products</h4>
-            <p className="features-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut earum
-              exercitationem doloremque minus ipsa quam fugit nemo ratione
-              voluptates placeat?
-            </p>
-          </div>
-          <div className="single-feature">
-            <h4 className="features-title">100% Genuine Products</h4>
-            <p className="features-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut earum
-              exercitationem doloremque minus ipsa quam fugit nemo ratione
-              voluptates placeat?
-            </p>
-          </div>
-          <div className="single-feature">
-            <h4 className="features-title">100% Genuine Products</h4>
-            <p className="features-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut earum
-              exercitationem doloremque minus ipsa quam fugit nemo ratione
-              voluptates placeat?
-            </p>
-          </div>
-        </div>
+        <HomeContent />
       </div>
     );
   }
