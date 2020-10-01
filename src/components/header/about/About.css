@@ -6,9 +6,10 @@
 .sub-title {
   color: var(--primaryColor);
 }
-.section-center {
+.section-center-about {
   max-width: 1170px;
   width: 85vw;
+  margin: 64px auto 32px auto;
 }
 .about-container {
   display: flex;
