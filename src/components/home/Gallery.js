@@ -3,6 +3,8 @@ import "./Gallery.css";
 import { Link } from "react-router-dom";
 
 import mainImg from "../../img/main-galleryImg.jpg";
+import subImg1 from "../../img/sub-galleryImg1.jpg";
+import subImg2 from "../../img/sub-galleryImg2.jpg";
 
 class Gallery extends Component {
   render() {
@@ -23,6 +25,17 @@ class Gallery extends Component {
               Shop Now
             </Link>
           </div>
+        </div>
+        <div className="sub-gallery-container">
+          <img src={subImg1} alt="sub img 1" className="sub-image" />
+          <div className="sub-gallery-content">
+            <div className="sub-gallery-icon-container">
+              <i className="fas fa-paint-brush"></i>
+              <div className="plus">+</div>
+              <i className="fas fa-feather"></i>
+            </div>
+          </div>
+          <img src={subImg2} alt="sub img 2" className="sub-image" />
         </div>
       </div>
     );

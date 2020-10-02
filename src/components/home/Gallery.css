@@ -48,3 +48,13 @@
     margin: 20px auto 80px auto;
   }
 }
+
+.sub-gallery-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+
+.sub-image {
+  max-height: 600px;
+}
