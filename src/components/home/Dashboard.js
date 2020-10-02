@@ -1,5 +1,5 @@
-import React, {Component} from "react";
-import {Link} from "react-router-dom";
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import bagImage from "../../img/bannerImg.png";
 import "./Dashboard.css";
 import Feature from "./Feature";
@@ -20,7 +20,7 @@ class Dashboard extends Component {
                 <p className="hero-text">
                   The most trendy and fashionable bags waiting for you.
                 </p>
-                <Link to="/collections" className="hero-button">
+                <Link to="/collections" className="main-btn">
                   Shop Now
                 </Link>
               </div>
