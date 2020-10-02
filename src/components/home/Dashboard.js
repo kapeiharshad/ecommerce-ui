@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {Link} from "react-router-dom";
 import bagImage from "../../img/bannerImg.png";
 import "./Dashboard.css";
-import HomeContent from "./HomeContent";
+import Feature from "./Feature";
 
 class Dashboard extends Component {
   render() {
@@ -29,7 +29,7 @@ class Dashboard extends Component {
             </div>
           </div>
         </div>
-        <HomeContent />
+        <Feature />
       </div>
     );
   }
