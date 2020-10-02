@@ -1,0 +1,10 @@
+.gallery {
+  padding-top: 30px;
+}
+.gallery-container {
+  background-color: var(--mainGrey);
+}
+
+.main-image {
+  max-width: 75vw;
+}

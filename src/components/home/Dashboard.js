@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 import bagImage from "../../img/bannerImg.png";
 import "./Dashboard.css";
 import Feature from "./Feature";
+import Gallery from "./Gallery";
 
 class Dashboard extends Component {
   render() {
@@ -30,6 +31,7 @@ class Dashboard extends Component {
           </div>
         </div>
         <Feature />
+        <Gallery />
       </div>
     );
   }
