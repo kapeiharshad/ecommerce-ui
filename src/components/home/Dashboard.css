@@ -19,7 +19,7 @@
 }
 
 .hero-title {
-  font-size: 36.8px;
+  font-size: 32px;
   color: var(--primaryColor);
 }
 .hero-subtitle {
@@ -31,11 +31,6 @@
 }
 
 @media screen and (max-width: 1070px) {
-  .hero-title {
-    font-size: 32px;
-    color: var(--primaryColor);
-  }
-
   .bagImage {
     max-width: 500px;
     height: auto;
