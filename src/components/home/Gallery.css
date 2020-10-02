@@ -1,12 +1,8 @@
-/* .gallery {
-  padding-top: 30px;
-} */
-.gallery-container {
-  background-color: var(--mainGrey);
-}
-.gallery-container {
+.main-gallery-container {
   display: flex;
   justify-content: space-between;
+  background-color: var(--mainGrey);
+  margin-bottom: 80px;
 }
 .main-image {
   max-width: 75vw;
@@ -40,7 +36,7 @@
 }
 
 @media screen and (max-width: 820px) {
-  .gallery-container {
+  .main-gallery-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;

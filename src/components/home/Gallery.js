@@ -8,8 +8,8 @@ class Gallery extends Component {
   render() {
     return (
       <div className="gallery">
-        <div className="gallery-container">
-          <div className="main-gallery-container">
+        <div className="main-gallery-container">
+          <div className="main-gallery-img-container">
             <img src={mainImg} alt="main gallery Img" className="main-image" />
           </div>
           <div className="main-gallery-text-container">
