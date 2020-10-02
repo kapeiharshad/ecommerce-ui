@@ -26,17 +26,31 @@ class Gallery extends Component {
             </Link>
           </div>
         </div>
+        {/*  ----------------------------sub gallery section start---------------------- */}
         <div className="sub-gallery-container">
           <img src={subImg1} alt="sub img 1" className="sub-image" />
           <div className="sub-gallery-content">
             <div className="sub-gallery-icon-container">
-              <i className="fas fa-paint-brush"></i>
+              <div>
+                <i className="fas fa-paint-brush sub-gallery-icon"></i>
+              </div>
               <div className="plus">+</div>
-              <i className="fas fa-feather"></i>
+              <div>
+                <i className="fas fa-feather sub-gallery-icon"></i>
+              </div>
             </div>
+            <h4 className="sub-gallery-title">Where Design meets Comfort</h4>
+            <p className="sub-gallery-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed
+              nostrum natus obcaecati eius ducimus?
+            </p>
+            <Link to="/collections" className="main-btn">
+              Shop Now
+            </Link>
           </div>
           <img src={subImg2} alt="sub img 2" className="sub-image" />
         </div>
+        {/*  ----------------------------sub gallery section end---------------------- */}
       </div>
     );
   }
