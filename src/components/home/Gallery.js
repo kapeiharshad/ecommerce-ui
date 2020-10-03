@@ -1,6 +1,6 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import "./Gallery.css";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import mainImg from "../../img/main-galleryImg.jpg";
 import subImg1 from "../../img/sub-galleryImg1.jpg";
@@ -52,11 +52,22 @@ class Gallery extends Component {
         </div>
         {/*  ----------------------------sub gallery section end---------------------- */}
         <div className="bottom-gallery-container">
-          <div className="bottom-gallery-img-container">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-              sequi quas dolores eum impedit.
-            </p>
+          <div>
+            <div className="bottom-gallery-img-container">
+              <div className="bottom-gallery-content">
+                <div className="fa-stack fa-lg bottom-gallery-icon">
+                  <i className="fa fa-certificate fa-stack-2x"></i>
+                  <i className="fa fa-tag fa-stack-1x fa-inverse"></i>
+                </div>
+                <h3 className="bottom-gallery-title">
+                  Get 30% discount on your first order
+                </h3>
+
+                <Link to="/collections" className="main-btn btn-margin">
+                  Shop Now
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>
