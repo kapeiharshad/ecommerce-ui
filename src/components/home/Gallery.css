@@ -135,6 +135,45 @@
 .bottom-gallery-container {
   margin-bottom: 80px;
 }
-.bottom-gallery-img {
+/* .bottom-gallery-img {
   width: 100%;
+} */
+.bottom-gallery-container {
+  background: url("../../img/bottom-galleryImg.jpg") center/cover no-repeat;
+}
+
+.bottom-gallery-img-container {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 600px;
+}
+
+@media screen and (max-width: 1450px) {
+  .bottom-gallery-img-container {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .bottom-gallery-img-container {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bottom-gallery-img-container {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .bottom-gallery-img-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 250px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .bottom-gallery-img-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 200px;
+  }
 }

@@ -5,7 +5,6 @@ import {Link} from "react-router-dom";
 import mainImg from "../../img/main-galleryImg.jpg";
 import subImg1 from "../../img/sub-galleryImg1.jpg";
 import subImg2 from "../../img/sub-galleryImg2.jpg";
-import bottomImg from "../../img/bottom-galleryImg.jpg";
 
 class Gallery extends Component {
   render() {
@@ -53,7 +52,12 @@ class Gallery extends Component {
         </div>
         {/*  ----------------------------sub gallery section end---------------------- */}
         <div className="bottom-gallery-container">
-          <img src={bottomImg} alt="" className="bottom-gallery-img" />
+          <div className="bottom-gallery-img-container">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              sequi quas dolores eum impedit.
+            </p>
+          </div>
         </div>
       </div>
     );

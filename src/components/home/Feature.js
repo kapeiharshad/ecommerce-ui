@@ -3,7 +3,7 @@ import "./Feature.css";
 
 const Feature = () => {
   return (
-    <div className="home-content">
+    <div className="features">
       <div className="features-container section-center-feature">
         <div className="single-feature">
           <h4 className="features-title">100% Genuine Products</h4>
