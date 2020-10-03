@@ -1,10 +1,11 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import "./Gallery.css";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 import mainImg from "../../img/main-galleryImg.jpg";
 import subImg1 from "../../img/sub-galleryImg1.jpg";
 import subImg2 from "../../img/sub-galleryImg2.jpg";
+import bottomImg from "../../img/bottom-galleryImg.jpg";
 
 class Gallery extends Component {
   render() {
@@ -51,6 +52,9 @@ class Gallery extends Component {
           <img src={subImg2} alt="sub img 2" className="sub-image" />
         </div>
         {/*  ----------------------------sub gallery section end---------------------- */}
+        <div className="bottom-gallery-container">
+          <img src={bottomImg} alt="" className="bottom-gallery-img" />
+        </div>
       </div>
     );
   }
