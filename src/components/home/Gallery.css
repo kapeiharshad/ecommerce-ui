@@ -46,7 +46,7 @@
     justify-content: space-between;
   }
   .main-image {
-    max-width: 100vw;
+    max-width: 100%;
   }
   .main-gallery-text-container {
     margin: 32px auto 32px auto;
