@@ -132,6 +132,9 @@
   }
 }
 /*  ----------------------------sub gallery section end---------------------- */
+.bottom-gallery-container {
+  margin-bottom: 80px;
+}
 .bottom-gallery-img {
   width: 100%;
 }
