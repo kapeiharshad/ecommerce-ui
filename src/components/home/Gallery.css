@@ -162,6 +162,9 @@
 .btn-margin {
   margin-bottom: 200px;
 }
+.btn-margin:hover {
+  color: var(--mainWhite);
+}
 
 @media screen and (max-width: 1450px) {
   .bottom-gallery-icon {

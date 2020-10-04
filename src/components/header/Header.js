@@ -8,11 +8,11 @@ const Header = () => {
     <div className="header main-body">
       <Navbar />
       <div className="headers-link-container section-center-header">
+        <NavLink to="/" className="header-link">
+          Home
+        </NavLink>
         <NavLink to="/about" className="header-link">
           About Us
-        </NavLink>
-        <NavLink to="/" className="header-link">
-          Brands
         </NavLink>
         <NavLink to="/collections" className="header-link">
           Collections
