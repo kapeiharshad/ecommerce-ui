@@ -9,6 +9,8 @@ import subImg2 from "../../../img/sub-galleryImg2.jpg";
 const Gallery = () => {
   return (
     <div className="gallery">
+      {/*  ----------------------------main gallery section start---------------------- */}
+
       <div className="main-gallery-container">
         <div className="main-gallery-img-container">
           <img src={mainImg} alt="main gallery Img" className="main-image" />
@@ -25,6 +27,8 @@ const Gallery = () => {
           </Link>
         </div>
       </div>
+      {/*  ----------------------------main gallery section end---------------------- */}
+
       {/*  ----------------------------sub gallery section start---------------------- */}
       <div className="sub-gallery-container">
         <img src={subImg1} alt="sub img 1" className="sub-image" />
@@ -50,6 +54,9 @@ const Gallery = () => {
         <img src={subImg2} alt="sub img 2" className="sub-image" />
       </div>
       {/*  ----------------------------sub gallery section end---------------------- */}
+
+      {/* ----------------------------bottom gallery start ------------------------- */}
+
       <div className="bottom-gallery-container">
         <div>
           <div className="bottom-gallery-img-container">
@@ -69,6 +76,7 @@ const Gallery = () => {
           </div>
         </div>
       </div>
+      {/* ----------------------------bottom gallery end ------------------------- */}
     </div>
   );
 };
