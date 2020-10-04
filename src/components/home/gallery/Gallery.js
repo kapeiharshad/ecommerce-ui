@@ -10,6 +10,7 @@ class Gallery extends Component {
   render() {
     return (
       <div className="gallery">
+        {/* --------------------------- main gallery start -------------------------- */}
         <div className="main-gallery-container">
           <div className="main-gallery-img-container">
             <img src={mainImg} alt="main gallery Img" className="main-image" />
@@ -26,6 +27,8 @@ class Gallery extends Component {
             </Link>
           </div>
         </div>
+        {/* --------------------------- main gallery end -------------------------- */}
+
         {/*  ----------------------------sub gallery section start---------------------- */}
         <div className="sub-gallery-container">
           <img src={subImg1} alt="sub img 1" className="sub-image" />
@@ -51,6 +54,8 @@ class Gallery extends Component {
           <img src={subImg2} alt="sub img 2" className="sub-image" />
         </div>
         {/*  ----------------------------sub gallery section end---------------------- */}
+
+        {/* ----------------------------bottom gallery start ------------------------- */}
         <div className="bottom-gallery-container">
           <div>
             <div className="bottom-gallery-img-container">
@@ -70,6 +75,7 @@ class Gallery extends Component {
             </div>
           </div>
         </div>
+        {/* ----------------------------bottom gallery end ------------------------- */}
       </div>
     );
   }

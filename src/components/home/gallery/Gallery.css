@@ -1,3 +1,4 @@
+/* --------------------------- main gallery start -------------------------- */
 .main-gallery-container {
   display: flex;
   justify-content: space-between;
@@ -52,6 +53,9 @@
     margin: 32px auto 32px auto;
   }
 }
+
+/* --------------------------- main gallery end -------------------------- */
+
 
 /*  ----------------------------sub gallery section start---------------------- */
 .sub-gallery-container {
@@ -132,6 +136,9 @@
   }
 }
 /*  ----------------------------sub gallery section end---------------------- */
+
+/* ----------------------------bottom gallery start ------------------------- */
+
 .bottom-gallery-container {
   margin-bottom: 80px;
 }
@@ -207,3 +214,5 @@
     margin-bottom: 20px;
   }
 }
+/* ----------------------------bottom gallery end ------------------------- */
+
