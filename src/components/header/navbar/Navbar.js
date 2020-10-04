@@ -1,11 +1,11 @@
 import React from "react";
 import "./Navbar.css";
 import logo from "../../../img/logoImg.png";
-import {Link, NavLink} from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="main-body" style={{paddingTop: "32px"}}>
+    <div className="main-body" style={{ paddingTop: "32px" }}>
       <div className="navbar section-center-navbar">
         <div className="nav-toogle-container">
           <div className="nav-toogle">
@@ -29,7 +29,7 @@ const Navbar = () => {
             </button>
           </form>
 
-          <div className="signInedTab">
+          {/* <div className="signInedTab">
             <NavLink to="/orders">
               <span className="nav-text-container">
                 <i
@@ -45,9 +45,9 @@ const Navbar = () => {
                 <span className="links-text">Logout</span>
               </span>
             </NavLink>
-          </div>
+          </div> */}
 
-          {/* <div className="signOutedTab">
+          <div className="signOutedTab">
             <NavLink className="navlink" to="/signin">
               <span className="nav-text-container">
                 <i
@@ -64,7 +64,7 @@ const Navbar = () => {
                 <span className="links-text">Sign Up</span>
               </span>
             </NavLink>
-          </div> */}
+          </div>
         </div>
       </div>
       <div className="underline"></div>

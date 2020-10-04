@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import bagImage from "../../img/bannerImg.png";
 import "./Dashboard.css";
-import Feature from "./Feature";
-import Gallery from "./Gallery";
+import Feature from "./feature/Feature";
+import Gallery from "./gallery/Gallery";
 
 class Dashboard extends Component {
   render() {

@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import "./Gallery.css";
 import { Link } from "react-router-dom";
 
-import mainImg from "../../img/main-galleryImg.jpg";
-import subImg1 from "../../img/sub-galleryImg1.jpg";
-import subImg2 from "../../img/sub-galleryImg2.jpg";
+import mainImg from "../../../img/main-galleryImg.jpg";
+import subImg1 from "../../../img/sub-galleryImg1.jpg";
+import subImg2 from "../../../img/sub-galleryImg2.jpg";
 
 class Gallery extends Component {
   render() {
