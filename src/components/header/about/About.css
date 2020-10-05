@@ -1,7 +1,7 @@
 .about-title {
   color: var(--mainBlack);
   text-align: center;
-  padding-top: 100px;
+  margin-top: 80px;
 }
 .sub-title {
   color: var(--primaryColor);
