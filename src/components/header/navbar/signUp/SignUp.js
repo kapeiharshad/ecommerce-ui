@@ -45,7 +45,7 @@ class signUp extends Component {
             <button className="secoundary-btn">Sign Up</button>
           </form>
           <p className="tandc-text">
-            By clicking singup,I agree to your terms & conditions.
+            By clicking singup, I agree to your terms & conditions.
           </p>
         </div>
       </div>
