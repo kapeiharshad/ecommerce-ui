@@ -20,10 +20,18 @@
   padding: 3.4px 56px;
   border-radius: 32px;
   outline: none;
+  width: 250px;
 }
 
 .search-input::placeholder {
   text-align: center;
+  font-weight: bold;
+}
+.search-input[type="text"] {
+  text-align: left;
+  color: var(--mainBlack);
+  padding-left: 16px;
+  padding-right: 16px;
   font-weight: bold;
 }
 .search-button {
@@ -36,13 +44,6 @@
   border: var(--primaryColor) solid 2px;
   border-radius: 32px;
   cursor: pointer;
-}
-
-input[type="text"] {
-  text-align: left;
-  color: var(--mainBlack);
-  padding-left: 16px;
-  font-weight: bold;
 }
 
 .search-button:hover {
