@@ -1,0 +1,19 @@
+.section-center-signup {
+  max-width: 450px;
+  margin: 0 auto 80px auto;
+}
+.tandc-text {
+  text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+  .section-center-signup {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .section-center-signup {
+    max-width: 300px;
+  }
+}

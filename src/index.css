@@ -99,6 +99,7 @@ Link {
   color: var(--mainBlack);
   text-align: center;
   margin-top: 80px;
+  margin-bottom: 60px;
 }
 .main-sub-title {
   color: var(--primaryColor);
