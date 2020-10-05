@@ -7,26 +7,40 @@ class SignIn extends Component {
   render() {
     return (
       <div className="signin main-body">
-        <div className="signin-container">
-          <div className="main-title">
-            <h3>
-              Sign <span className="main-sub-title">in</span>
-            </h3>
-          </div>
+        <div className="main-title">
+          <h3>
+            Sign <span className="main-sub-title">in</span>
+          </h3>
+        </div>
+        <div className="signin-container section-center-signin">
           <form action="">
-            <input type="email" className="input-box" />
-            <input type="password" className="input-box" />
-            <button className="secoundary-btn">Sing In</button>
+            <div>
+              <input
+                type="email"
+                placeholder="Enter Email"
+                className="input-box"
+              />
+            </div>
+            <div>
+              <input
+                type="password"
+                placeholder="Password"
+                className="input-box"
+              />
+            </div>
+            <button className="secoundary-btn">Sign In</button>
           </form>
-          <div>
-            <Link to="" className="secoundary-btn">
-              <p>Forget Password ?</p>
-            </Link>
-          </div>
-          <div>
-            <Link to="/singup" className="secoundary-btn">
-              <p>Don't have an account ?</p>
-            </Link>
+          <div className="singin-links-container">
+            <span className="createaccount-text">
+              <Link to="/singup">
+                <p>Don't have an account ?</p>
+              </Link>
+            </span>
+            <span className="forget-text">
+              <Link to="">
+                <p>Forget Password ?</p>
+              </Link>
+            </span>
           </div>
         </div>
       </div>
