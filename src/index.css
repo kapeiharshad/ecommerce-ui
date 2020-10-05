@@ -94,3 +94,41 @@ Link {
   color: var(--mainBlack);
   border: var(--primaryColor) solid 1px;
 }
+
+.main-title {
+  color: var(--mainBlack);
+  text-align: center;
+  margin-top: 80px;
+}
+.main-sub-title {
+  color: var(--primaryColor);
+}
+
+.input-box {
+  padding: 16px;
+  font-size: 16px;
+  border-bottom: var(--primaryColor) solid 1px;
+  width: 400px;
+  margin: 16px;
+}
+
+.input-box::placeholder {
+  font-family: "Lato", sans-serif;
+}
+
+.secoundary-btn {
+  padding: 16px;
+  width: 400px;
+  border: var(--primaryColor) solid 1px;
+  margin: 16px;
+  background-color: var(--primaryColor);
+  color: var(--mainWhite);
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.secoundary-btn:hover {
+  background-color: transparent;
+  color: var(--mainBlack);
+}
