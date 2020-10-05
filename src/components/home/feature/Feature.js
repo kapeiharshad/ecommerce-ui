@@ -8,22 +8,19 @@ const Feature = () => {
         <div className="single-feature">
           <h4 className="features-title">100% Genuine Products</h4>
           <p className="features-text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed ex
-            ullam ipsa natus qui.
+            We ensure that only the best brands and new designs brought to you by BagGate.
           </p>
         </div>
         <div className="single-feature">
           <h4 className="features-title">Safe & Secure Payments</h4>
           <p className="features-text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed ex
-            ullam ipsa natus qui.
+            We use the latest technology to provide you with safe & secure payment system.  
           </p>
         </div>
         <div className="single-feature">
           <h4 className="features-title">Money Back Guarantee</h4>
           <p className="features-text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed ex
-            ullam ipsa natus qui.
+            After cancellation of order proprate money will be guarantee refund with in 7 days.
           </p>
         </div>
       </div>
