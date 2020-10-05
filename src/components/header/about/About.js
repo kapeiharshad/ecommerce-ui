@@ -5,9 +5,9 @@ import aboutimg from "../../../img/aboutImg.png";
 const About = () => {
   return (
     <div className="about main-body">
-      <div className="about-title">
+      <div className="main-title">
         <h3>
-          About <span className="sub-title">us</span>
+          About <span className="main-sub-title">us</span>
         </h3>
       </div>
       <div className="about-container section-center-about">

@@ -94,3 +94,16 @@ Link {
   color: var(--mainBlack);
   border: var(--primaryColor) solid 1px;
 }
+
+.secoundary-btn {
+}
+
+.main-title {
+  color: var(--mainBlack);
+  text-align: center;
+  margin-top: 80px;
+  font-size: ;
+}
+.main-sub-title {
+  color: var(--primaryColor);
+}
