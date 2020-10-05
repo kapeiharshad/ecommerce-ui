@@ -19,8 +19,7 @@ class Gallery extends Component {
             <i className="fas fa-crown main-gallery-icon"></i>
             <h4 className="main-gallery-title">Luxury at its finest</h4>
             <p className="main-gallery-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
-              sunt.
+              BagGate brings luxurious edge to your dainty outfits.
             </p>
             <Link to="/collections" className="main-btn">
               Shop Now
@@ -44,8 +43,7 @@ class Gallery extends Component {
             </div>
             <h4 className="sub-gallery-title">Where Design meets Comfort</h4>
             <p className="sub-gallery-text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed
-              nostrum natus obcaecati eius ducimus?
+              BagGate gives you trendy,classic,ethnic and many more designs of bags
             </p>
             <Link to="/collections" className="main-btn">
               Shop Now
