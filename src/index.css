@@ -127,6 +127,23 @@ Link {
   cursor: pointer;
   font-weight: bold;
 }
+@media screen and (max-width: 450px) {
+  .input-box {
+    width: 300px;
+  }
+  .secoundary-btn {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .input-box {
+    width: 250px;
+  }
+  .secoundary-btn {
+    width: 250px;
+  }
+}
 
 .secoundary-btn:hover {
   background-color: transparent;

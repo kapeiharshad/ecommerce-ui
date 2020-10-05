@@ -1,5 +1,5 @@
 .section-center-signin {
-  max-width: 400px;
+  max-width: 450px;
   margin: 0 auto 80px auto;
 }
 
@@ -9,4 +9,19 @@
 
 .createaccount-text {
   margin-right: 16px;
+}
+
+@media screen and (max-width: 450px) {
+  .section-center-signin {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .section-center-signin {
+    max-width: 300px;
+  }
+  .createaccount-text {
+    margin-right: 8px;
+  }
 }
