@@ -132,3 +132,17 @@ Link {
   background-color: transparent;
   color: var(--mainBlack);
 }
+
+.textarea-box{
+  padding: 16px;
+  font-size: 16px;
+  border-color: var(--primaryColor) /*solid 1px*/ ;
+  width: 400px;
+  margin: 16px;
+  height:100px;
+
+}
+
+.textarea-box::placeholder {
+  font-family: "Lato", sans-serif;
+}
