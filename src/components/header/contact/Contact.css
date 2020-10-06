@@ -10,3 +10,9 @@
     color:var(--primaryColor)
 }
 
+.contact_form {
+    border-radius: 10px;
+    margin: 150px;
+    margin-left: 300px;
+}
+
