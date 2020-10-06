@@ -5,6 +5,7 @@ import Footer from "../src/components/footer/Footer";
 import About from "../src/components/header/about/About";
 import Contact from "../src/components/header/contact/Contact";
 import SignIn from "../src/components/header/navbar/signIn/SignIn";
+import SignUp from "./components/header/navbar/signUp/SignUp";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/about" component={About}></Route>
           <Route path="/contact" component={Contact}></Route>
           <Route path="/signin" component={SignIn}></Route>
+          <Route path="/signup" component={SignUp}></Route>
         </Switch>
         <Footer />
       </div>
