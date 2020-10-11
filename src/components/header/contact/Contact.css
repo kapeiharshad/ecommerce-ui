@@ -1,18 +1,7 @@
-.contacttitle{
-    color:var(--mainBlack);
-    font-size: 40px;
-    text-align: center;
-    padding-top: 100px;
-    font-weight: bold ;
-    
+.section-center-contact {
+  max-width: 450px;
+  margin: 0 auto 80px auto;
 }
-.sub-title{
-    color:var(--primaryColor)
+.sub-title {
+  color: var(--primaryColor);
 }
-
-.contact_form {
-    border-radius: 10px;
-    margin: 150px;
-    margin-left: 300px;
-}
-

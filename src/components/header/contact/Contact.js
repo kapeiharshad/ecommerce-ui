@@ -2,7 +2,7 @@ import React from "react";
 import "./Contact.css";
 const Contact = () => {
   return (
-    <div className="contact main-body">
+    <div className="contact main-body section-center-contact">
       <h3 className="main-title">
         Contact <span className="sub-title">us</span>
       </h3>
@@ -10,22 +10,22 @@ const Contact = () => {
         <form action="">
           <div>
             <input
-              type="username"
-              placeholder="Username"
+              type="text"
+              placeholder="Enter your name"
               className="input-box"
             />
           </div>
           <div>
             <input
-              type="useremail"
-              placeholder="Useremail"
+              type="email"
+              placeholder="Enter your email"
               className="input-box"
             />
           </div>
           <div>
             <input
-              type="userphone"
-              placeholder="Userphone"
+              type="number"
+              placeholder="Enter your number"
               className="input-box"
             />
           </div>
@@ -33,6 +33,7 @@ const Contact = () => {
           <div>
             <textarea
               id="message"
+              rows="5"
               placeholder="Enter your message here"
               className="textarea-box"
             />
