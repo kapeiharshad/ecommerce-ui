@@ -2,6 +2,14 @@
   max-width: 450px;
   margin: 0 auto 80px auto;
 }
-.sub-title {
-  color: var(--primaryColor);
+@media screen and (max-width: 450px) {
+  .section-center-contact {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .section-center-contact {
+    max-width: 300px;
+  }
 }

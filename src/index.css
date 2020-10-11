@@ -117,6 +117,18 @@ Link {
   font-family: "Lato", sans-serif;
 }
 
+.textarea-box {
+  padding: 16px;
+  font-size: 16px;
+  border: var(--primaryColor) solid 1px;
+  width: 400px;
+  margin: 16px;
+}
+
+.textarea-box::placeholder {
+  font-family: "Lato", sans-serif;
+}
+
 .secoundary-btn {
   padding: 16px;
   width: 400px;
@@ -131,6 +143,9 @@ Link {
   .input-box {
     width: 300px;
   }
+  .textarea-box {
+    width: 300px;
+  }
   .secoundary-btn {
     width: 300px;
   }
@@ -138,6 +153,9 @@ Link {
 
 @media screen and (max-width: 350px) {
   .input-box {
+    width: 250px;
+  }
+  .textarea-box {
     width: 250px;
   }
   .secoundary-btn {
@@ -148,16 +166,4 @@ Link {
 .secoundary-btn:hover {
   background-color: transparent;
   color: var(--mainBlack);
-}
-
-.textarea-box {
-  padding: 16px;
-  font-size: 16px;
-  border: var(--primaryColor) solid 1px;
-  width: 400px;
-  margin: 16px;
-}
-
-.textarea-box::placeholder {
-  font-family: "Lato", sans-serif;
 }
