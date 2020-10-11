@@ -87,6 +87,7 @@ Link {
   padding: 8px 16px;
   border-radius: 32px;
   color: var(--mainWhite);
+  transition: var(--mainTransition);
 }
 
 .main-btn:hover {
@@ -137,6 +138,7 @@ Link {
   background-color: var(--primaryColor);
   color: var(--mainWhite);
   font-size: 16px;
+  transition: var(--mainTransition);
   cursor: pointer;
 }
 @media screen and (max-width: 450px) {
