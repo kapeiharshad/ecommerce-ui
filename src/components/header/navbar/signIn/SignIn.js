@@ -32,7 +32,7 @@ class SignIn extends Component {
           </form>
           <div className="singin-links-container">
             <span className="createaccount-text">
-              <Link to="/singup">
+              <Link to="/signup">
                 <p>Don't have an account ?</p>
               </Link>
             </span>
